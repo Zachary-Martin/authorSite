@@ -45,7 +45,8 @@ body, html{
 	width: 100%;
 	padding-left: 5.5rem;
 	background-color: #f5f5f5;
-	
-    
-    
   }
+.childAbout {
+	max-width: 100%; /* Ensures the <p> tag never exceeds its parent's width */
+	word-wrap: break-word; /* Allows long words to break and wrap onto the next line */
+}
